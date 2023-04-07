@@ -7,4 +7,4 @@ excerpt: 'El impacto de la ley de pensiones mínimas sobre las AFP sería acotad
 
 ---
 
-[View article here]([https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento](https://semanaeconomica.com/economia-finanzas/afp/la-lenta-erosion-del-sistema))
+[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
