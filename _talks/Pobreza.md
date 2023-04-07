@@ -2,9 +2,9 @@
 title: "Pobreza en aumento: los factores que elevarían las cifras del 2022"
 collection: talks
 permalink: /talks/Pobreza
-date: 2023-02-05
-excerpt: 'Si bien la pobreza se redujo en el 2021, la inflación, la precarización del empleo, la crisis del agro y el desabastecimiento por las protestas sociales plantean un escenario adverso para el resultado del 2022.'
+date: 2023-01-21
+excerpt: 'El impacto de la ley de pensiones mínimas sobre las AFP sería acotado. Pero, si los actores siguen postergando el acuerdo en torno a una pronta reforma integral, los golpes recibidos volverán insostenible al sistema.'
 
 ---
 
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+[View article here]([https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento](https://semanaeconomica.com/economia-finanzas/afp/la-lenta-erosion-del-sistema))
