@@ -7,4 +7,4 @@ excerpt: 'Si bien la pobreza se redujo en el 2021, la inflación, la precarizaci
 
 ---
 
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+[View article here](https://semanaeconomica.com/economia-finanzas/afp/la-lenta-erosion-del-sistema)
