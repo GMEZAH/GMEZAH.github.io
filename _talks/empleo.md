@@ -7,4 +7,4 @@ excerpt: 'Si bien el empleo ya recuperó y superó los niveles previos a la pand
 
 ---
 
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+[View article here](https://semanaeconomica.com/economia-finanzas/empleo/empleo-formal-inversion-privada-jugara-un-rol-importante-en-su-recuperacion)
