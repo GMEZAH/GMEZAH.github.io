@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Resume"
-    url: /publications/
+    url: http://gustavomezah.github.io/files/Resume%20Gustavo%20Meza.pdf.pdf
 
   - title: "Research"
-    url: /talks/    
+    url: /publications/    
 
   - title: "Codes"
-    url: /portfolio/
+    url: /teaching/
     
   - title: "Media"
-    url: /teaching/    
+    url: /talks/    
