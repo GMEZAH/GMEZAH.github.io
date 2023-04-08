@@ -13,4 +13,4 @@ I am working as a economics and financial analyst at [SEMANAeconómica](https://
 
 I have more than two years of experience in data analysis, as well as conducting quantitative and qualitative research. Additionally, I want to contribute to the design of public policies based on quantitative and qualitative evidence.
 
-In my free time, I like to practice sports, listen to music and read.
+In my free time, I like to practice sports, listen to music and read!
