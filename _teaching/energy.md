@@ -7,4 +7,4 @@ excerpt: "This code uses data of the Energy Information Administration (EIA) to 
 
 ---
 
-[View article here]([https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento](https://github.com/GMEZAH/Trabajo-Final/blob/main/Trabajo%20Final_Python.ipynb))
+[View article here](https://github.com/GMEZAH/Trabajo-Final/blob/main/Trabajo%20Final_Python.ipynb)
