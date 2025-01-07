@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gustavo Meza"
+title                    : "Gustavo Meza Hinojo"
 title_separator          : "-"
-name                     : &name "Gustavo Meza"
+name                     : &name "Gustavo Meza Hinojo"
 description              : &description "B.A in Economics"
 url                      : https://GMEZAH.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
