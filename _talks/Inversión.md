@@ -1,10 +1,10 @@
 ---
-title: "Pobreza en aumento: los factores que elevarían las cifras del 2022"
+title: "Inversión privada que no repunta"
 collection: talks
-permalink: /talks/Pobreza
-date: 2023-01-21
-excerpt: 'El impacto de la ley de pensiones mínimas sobre las AFP sería acotado. Pero, si los actores siguen postergando el acuerdo en torno a una pronta reforma integral, los golpes recibidos volverán insostenible al sistema.'
+permalink: /talks/inversión
+date: 2024-10-26
+excerpt: 'Las instituciones económicas y políticas ya no van por caminos separados; la inestabilidad política resta confianza para invertir, crecer y mejorar la calidad de vida. Columna de opinión para El Comercio'
 
 ---
 
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+[View article here](https://elcomercio.pe/economia/la-mirada-inversion-privada-que-no-repunta-por-gustavo-meza-hinojo-noticia/)
