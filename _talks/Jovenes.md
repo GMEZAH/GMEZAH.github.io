@@ -1,10 +1,5 @@
 ---
-title: "Pobreza en aumento: los factores que elevarían las cifras del 2022"
+title: ["Más oportunidades para los jóvenes"](https://elcomercio.pe/economia/opinion/trabajo-mas-oportunidades-para-los-jovenes-noticia/)
 collection: talks
-permalink: /talks/Pobreza
-date: 2023-01-21
-excerpt: 'El impacto de la ley de pensiones mínimas sobre las AFP sería acotado. Pero, si los actores siguen postergando el acuerdo en torno a una pronta reforma integral, los golpes recibidos volverán insostenible al sistema.'
-
----
-
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+permalink: /talks/jovenes
+date: 2024-08-10
