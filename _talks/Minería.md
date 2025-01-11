@@ -1,10 +1,10 @@
 ---
-title: "Pobreza en aumento: los factores que elevarían las cifras del 2022"
+title: "De la riqueza al desarrollo: minería y su impacto socieconómico"
 collection: talks
-permalink: /talks/Pobreza
-date: 2023-01-21
-excerpt: 'El impacto de la ley de pensiones mínimas sobre las AFP sería acotado. Pero, si los actores siguen postergando el acuerdo en torno a una pronta reforma integral, los golpes recibidos volverán insostenible al sistema.'
+permalink: /talks/mineria
+date: 2023-10-05
+excerpt: 'La minería impulsa la economía peruana con aportes clave a la recaudación, inversión y reducción de pobreza en zonas mineras. Estudios muestran que genera empleo y mejora el desarrollo humano. Descubre su impacto en el Perú.'
 
 ---
 
-[View article here](https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento)
+[View article here](https://www.rumbominero.com/revista/articulos/de-la-riqueza-al-desarrollo-mineria-impacto-socieconomico/)
