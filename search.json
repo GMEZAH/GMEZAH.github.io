@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an economist and Senior Researcher at Red de Estudios para el Desarrollo (REDES), a Peruvian public policy think tank. I manage a team of research assistants and work on youth employment, urban poverty, inflation, food insecurity and public transport.\nMy work starts with data: microdata from national household, employment, education and energy surveys, analysed with impact evaluation methods (difference-in-differences, regression discontinuity, instrumental variables) and data science tools in Stata, Python and R. I want that evidence to reach the public debate, which is why I write a regular column for El Comercio and present findings at universities across Peru."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nRed de Estudios para el Desarrollo (REDES) · Senior Researcher (since 2025), Researcher (2023-2024)\nSemana Económica · Economic and Financial Analyst (2022-2023)\nGERENS Graduate School · Junior Researcher and Consulting Assistant in energy regulation and competition, for clients including Peru’s Ministry of Economy and Finance, Ministry of Energy and Mines and Osinergmin (2020-2022)\nINDECOPI · Intern, Technical Secretariat for Free Competition (2019-2020)"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nPontificia Universidad Católica del Perú (PUCP) · BSc and Licentiate in Economics. Specialisation Diploma in Data Science for Social Sciences and Public Management."
+  },
+  {
+    "objectID": "reports/index.html",
+    "href": "reports/index.html",
+    "title": "Reports",
+    "section": "",
+    "text": "Policies to improve youth labour market entry in Peru\n\n\n\nREDES\n\nEmployment\n\n\n\nDiagnosis of how young people enter Peru’s labour market, with policy proposals.\n\n\n\n\n\n2026\n\n\n\n\n\n\n\nWelfare effects of formal public transport on users\n\n\n\nREDES\n\nTransport\n\n\n\nHow a formal public transport system changes users’ welfare in Lima.\n\n\n\n\n\n2023\n\n\n\n\n\n\n\nChoice and consumption of energy sources at the residential level in Lima, Callao and Ica: an econometric approach\n\n\n\nWorking paper\n\nEnergy\n\n\n\nWorking paper. Two-stage discrete-continuous model (Dubin & McFadden, 1984) of household energy choice and consumption.\n\n\n\n\n\n2023\n\n\n\n\n\n\n\nFiscal burden of Peru’s mining sector: a Latin American comparison\n\n\n\nGERENS\n\nMining\n\n\n\nCompares the tax burden on mining in Peru with other countries in the region.\n\n\n\n\n\n2022\n\n\n\n\n\n\n\nMargin squeeze\n\n\n\nLibre Competencia UC\n\nCompetition\n\n\n\nMargin squeeze as an anticompetitive practice: comparative regulation and case law.\n\n\n\n\n\n2022\n\n\n\n\n\n\n\nPrice fixing\n\n\n\nLibre Competencia UC\n\nCompetition\n\n\n\nPrice fixing in competition policy: comparative regulation and case law.\n\n\n\n\n\n2022\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "data/youth-unemployment/index.html",
+    "href": "data/youth-unemployment/index.html",
+    "title": "Youth unemployment in Peru",
+    "section": "",
+    "text": "9.5%\nof 15 to 24-year-olds in the labour force were unemployed in 2025\n\n\n+2.0 pp\nchange compared with 2019, before the pandemic\n\n\n−2.7 pp\ndifference from the Latin America & Caribbean average"
+  },
+  {
+    "objectID": "data/youth-unemployment/index.html#youth-unemployment-over-time",
+    "href": "data/youth-unemployment/index.html#youth-unemployment-over-time",
+    "title": "Youth unemployment in Peru",
+    "section": "Youth unemployment over time",
+    "text": "Youth unemployment over time\n\n\n                            \n                                            \nYouth unemployment (% of labour force aged 15 to 24)"
+  },
+  {
+    "objectID": "data/youth-unemployment/index.html#what-the-data-tell-us",
+    "href": "data/youth-unemployment/index.html#what-the-data-tell-us",
+    "title": "Youth unemployment in Peru",
+    "section": "What the data tell us",
+    "text": "What the data tell us\n\nUnemployment is only part of the problem: in Peru, many young people who do work hold informal, low-productivity jobs. This indicator is best read alongside youth informality and the share of young people not in employment, education or training.\nFor a fuller analysis, see the study Policies to improve youth labour market entry in Peru and the column Más oportunidades para los jóvenes (in Spanish)."
+  },
+  {
+    "objectID": "data/youth-unemployment/index.html#download-the-data",
+    "href": "data/youth-unemployment/index.html#download-the-data",
+    "title": "Youth unemployment in Peru",
+    "section": "Download the data",
+    "text": "Download the data\n\nDownload data (CSV)\n\n\nSource: World Bank, World Development Indicators, indicator SL.UEM.1524.ZS (modelled ILO estimate). Latin America & Caribbean values are the World Bank regional aggregate. Page last updated: October 2026."
+  },
+  {
+    "objectID": "data/index.html",
+    "href": "data/index.html",
+    "title": "Data",
+    "section": "",
+    "text": "Youth unemployment in Peru\n\n\n\nEmployment\n\nYouth\n\n\n\nHow unemployment among 15 to 24-year-olds has evolved and how Peru compares with the region.\n\n\n\nOctober 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "I analyse data to understand Peru’s economy and improve its public policies",
+    "section": "",
+    "text": "I am an economist and Senior Researcher at Red de Estudios para el Desarrollo (REDES), a Peruvian policy think tank. I write about jobs, poverty, investment and public services, using national survey data and impact evaluation. Opinion columnist at El Comercio.\n\nExplore the data Get in touch"
+  },
+  {
+    "objectID": "index.html#latest-data-analysis",
+    "href": "index.html#latest-data-analysis",
+    "title": "I analyse data to understand Peru’s economy and improve its public policies",
+    "section": "Latest data analysis",
+    "text": "Latest data analysis\nAll topics"
+  },
+  {
+    "objectID": "index.html#in-the-media",
+    "href": "index.html#in-the-media",
+    "title": "I analyse data to understand Peru’s economy and improve its public policies",
+    "section": "In the media",
+    "text": "In the media\nAll media appearances"
+  },
+  {
+    "objectID": "media/index.html",
+    "href": "media/index.html",
+    "title": "Media",
+    "section": "",
+    "text": "Date\n\n\n\nTitle\n\n\n\nTopic\n\n\n\nOutlet and format\n\n\n\n\n\n\n\n\nNov 2025\n\n\nEl relevo que el agro sigue esperando\n\n\nAgeing in agriculture\n\n\nEl Comercio, Column\n\n\n\n\n\n\nOct 2025\n\n\nEstado de emergencia frena a la economía\n\n\nEconomic cost and effectiveness of states of emergency against crime\n\n\nGestión, Interview\n\n\n\n\n\n\nOct 2025\n\n\nCinco regiones dejaron de gastar S/ 2,000 millones en obras\n\n\nRegional governments’ capacity to execute public investment\n\n\nEl Comercio, Interview\n\n\n\n\n\n\nMay 2025\n\n\nLa pobreza está en las ciudades\n\n\nUrban poverty\n\n\nEl Comercio, Column\n\n\n\n\n\n\nApr 2025\n\n\n¿Condición biológica o condiciones iniciales?\n\n\nGender gaps in science and employment (with Paola del Carpio)\n\n\nEl Comercio, Column\n\n\n\n\n\n\nOct 2024\n\n\nInversión privada que no repunta\n\n\nPolitical instability and stagnant private investment\n\n\nEl Comercio, Column\n\n\n\n\n\n\nAug 2024\n\n\nMás oportunidades para los jóvenes\n\n\nYouth employment and informality\n\n\nEl Comercio, Column\n\n\n\n\n\n\nDec 2023\n\n\nImpacto del transporte público en la calidad de vida\n\n\nPublic transport and quality of life in Lima\n\n\nGestión, Interview\n\n\n\n\n\n\nOct 2023\n\n\nDe la riqueza al desarrollo: minería y su impacto socioeconómico\n\n\nMining’s contribution to tax revenue, investment and poverty reduction\n\n\nRumbo Minero, Article\n\n\n\n\n\n\nFeb 2023\n\n\nMoneda común en Sudamérica: ¿es viable su implementación?\n\n\nA South American common currency\n\n\nSemana Económica, Article\n\n\n\n\n\n\nFeb 2023\n\n\nPobreza en aumento: los factores que elevarían las cifras del 2022\n\n\nRising poverty: inflation, job quality and the farm crisis\n\n\nSemana Económica, Article\n\n\n\n\n\n\nJan 2023\n\n\nSistema Privado de Pensiones: los factores que lo hacen insostenible a largo plazo\n\n\nSustainability of the private pension system\n\n\nSemana Económica, Article\n\n\n\n\n\n\nNov 2022\n\n\nLa recuperación del empleo formal adoptaría un ritmo más moderado\n\n\nFormal employment recovery after the pandemic\n\n\nSemana Económica, Article\n\n\n\n\n\n\nNo matching items"
+  }
+]
