@@ -24,18 +24,21 @@ I am an economist and Senior Researcher at [Red de Estudios para el Desarrollo (
 
 ## Experience
 
-**Red de Estudios para el Desarrollo (REDES)** · Senior Researcher (since 2025), Researcher (2023-2024)
+**Red de Estudios para el Desarrollo (REDES)** · Senior Researcher (since 2025), Researcher (2023-2024)\
 Applied economic analysis focused on social development, macroeconomics, labor markets, and public policy.
 
-**Semana Económica** · Economic and Financial Analyst (2022-2023)
+**Semana Económica** · Economic and Financial Analyst (2022-2023)\
 Macroeconomic, fiscal, and sectoral policy analysis, authoring over 60 articles and interviewing key public and corporate decision-makers.
 
-**GERENS Graduate School** · Junior Researcher and Consulting Assistant (2020 – 2022)
+**GERENS Graduate School** · Junior Researcher and Consulting Assistant (2020 – 2022)\
 Regulatory consulting and economic research in energy, natural gas, and mining for private firms and public agencies (MEF, MINEM, Osinergmin)
 
-**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019 – 2020)
+**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019 – 2020)\
 Technical market studies and competition analysis in maritime freight transport and the port sector.
 
 ## Education
 
-**Pontificia Universidad Católica del Perú (PUCP)** · BSc and Licentiate in Economics. Specialisation Diploma in Data Science for Social Sciences and Public Management.
+**Pontificia Universidad Católica del Perú (PUCP)** · BSc in Economics and Professional Degree of Licentiate in Economics (2014 – 2020)
+
+**Pontificia Universidad Católica del Perú (PUCP)** · Specialisation Diploma in Data Science for Social Sciences and Public Management (2022 – 2023)\
+Advanced econometrics, machine learning, big data analytics, geospatial analysis and natural language processing, using Python, R and QGIS.
