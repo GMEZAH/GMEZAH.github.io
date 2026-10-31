@@ -1,0 +1,62 @@
+---
+# TEMPLATE FOR A NEW DATA PAGE
+# 1. Copy the _template folder with a new name (e.g. data/urban-poverty).
+#    Folders starting with "_" are not published.
+# 2. Change the title, description, date and categories.
+# 3. Put your data in data.csv (or download it with code, as in youth-unemployment).
+title: "Topic title"
+description: "One sentence saying what the page shows."
+date: 2026-11-01
+categories: [Topic]
+image: thumbnail.png
+resources:
+  - data.csv
+jupyter: python3
+---
+
+```{python}
+#| label: prepare-data
+import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv("data.csv")
+# Compute the key figures here, for example:
+# latest = df["year"].max()
+# latest_value = df.loc[df.year == latest, "value"].iloc[0]
+```
+
+::: {.cifras}
+::: {.cifra}
+[00.0%]{.valor}
+
+[What the first key figure means]{.texto}
+:::
+
+::: {.cifra}
+[+0.0 pp]{.valor}
+
+[What the second key figure means]{.texto}
+:::
+:::
+
+## Main chart title
+
+```{python}
+#| label: chart
+# fig = px.line(df, x="year", y="value")
+# fig.show()
+```
+
+## What the data tell us
+
+Two or three paragraphs with your reading: what changed, why it matters and which policies would help.
+
+## Download the data
+
+::: {.descarga}
+[Download data (CSV)](data.csv){download="topic-name.csv"}
+:::
+
+::: {.fuente}
+**Source:** institution, survey or database, year. Last updated: month year.
+:::

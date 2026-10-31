@@ -1,0 +1,84 @@
+# Each media appearance is one block. To add a new one, copy a block and edit it.
+# Titles stay in the original Spanish; "description" gives the topic in English.
+# "categories" holds the outlet and the format (used as filters on the page).
+
+# --- Opinion columns ---
+- title: "El relevo que el agro sigue esperando"
+  date: 2025-11-01
+  description: "Ageing in agriculture"
+  categories: [El Comercio, Column]
+  path: https://elcomercio.pe/economia/opinion/el-relevo-que-el-agro-sigue-esperando-por-gustavo-meza-hinojo-agro-opinion-la-mirada-noticia/
+
+- title: "La pobreza está en las ciudades"
+  date: 2025-05-01
+  description: "Urban poverty"
+  categories: [El Comercio, Column]
+  path: https://elcomercio.pe/economia/opinion/la-pobreza-esta-en-las-ciudades-por-gustavo-meza-hinojo-la-mirada-pobreza-noticia/
+
+- title: "¿Condición biológica o condiciones iniciales?"
+  date: 2025-04-01
+  description: "Gender gaps in science and employment (with Paola del Carpio)"
+  categories: [El Comercio, Column]
+  path: https://elcomercio.pe/economia/opinion/opinion-condicion-biologica-o-condiciones-iniciales-por-paola-del-carpio-y-gustavo-meza-noticia/
+
+- title: "Inversión privada que no repunta"
+  date: 2024-10-26
+  description: "Political instability and stagnant private investment"
+  categories: [El Comercio, Column]
+  path: https://elcomercio.pe/economia/la-mirada-inversion-privada-que-no-repunta-por-gustavo-meza-hinojo-noticia/
+
+- title: "Más oportunidades para los jóvenes"
+  date: 2024-08-10
+  description: "Youth employment and informality"
+  categories: [El Comercio, Column]
+  path: https://elcomercio.pe/economia/opinion/trabajo-mas-oportunidades-para-los-jovenes-noticia/
+
+# --- Interviews ---
+- title: "Estado de emergencia frena a la economía"
+  date: 2025-10-01
+  description: "Economic cost and effectiveness of states of emergency against crime"
+  categories: [Gestión, Interview]
+  path: https://gestion.pe/economia/estado-de-emergencia-frena-a-la-economia-los-sectores-mas-afectados-y-sus-perdidas-noticia/
+
+- title: "Cinco regiones dejaron de gastar S/ 2,000 millones en obras"
+  date: 2025-10-01
+  description: "Regional governments’ capacity to execute public investment"
+  categories: [El Comercio, Interview]
+  path: https://elcomercio.pe/economia/peru/deficiencia-presupuestal-estas-5-regiones-dejaron-de-gastar-s2000-millones-para-obras-en-lo-que-va-del-periodo-la-libertad-ancash-piura-arequipa-callao-noticia/
+
+- title: "Impacto del transporte público en la calidad de vida"
+  date: 2023-12-01
+  description: "Public transport and quality of life in Lima"
+  categories: [Gestión, Interview]
+  path: https://gestion.pe/peru/impacto-del-transporte-publico-en-la-calidad-de-vida-camino-a-equiparar-a-la-inseguridad-ciudadana-atu-transporte-metropolitano-metro-tren-noticia/
+
+# --- Articles ---
+- title: "De la riqueza al desarrollo: minería y su impacto socioeconómico"
+  date: 2023-10-05
+  description: "Mining’s contribution to tax revenue, investment and poverty reduction"
+  categories: [Rumbo Minero, Article]
+  path: https://www.rumbominero.com/revista/articulos/de-la-riqueza-al-desarrollo-mineria-impacto-socieconomico/
+
+- title: "Moneda común en Sudamérica: ¿es viable su implementación?"
+  date: 2023-02-08
+  description: "A South American common currency"
+  categories: [Semana Económica, Article]
+  path: https://semanaeconomica.com/economia-finanzas/macroeconomia/desafios-de-una-divisa-comun-sudamericana
+
+- title: "Pobreza en aumento: los factores que elevarían las cifras del 2022"
+  date: 2023-02-01
+  description: "Rising poverty: inflation, job quality and the farm crisis"
+  categories: [Semana Económica, Article]
+  path: https://semanaeconomica.com/economia-finanzas/macroeconomia/pobreza-en-aumento
+
+- title: "Sistema Privado de Pensiones: los factores que lo hacen insostenible a largo plazo"
+  date: 2023-01-01
+  description: "Sustainability of the private pension system"
+  categories: [Semana Económica, Article]
+  path: https://semanaeconomica.com/economia-finanzas/afp/la-lenta-erosion-del-sistema
+
+- title: "La recuperación del empleo formal adoptaría un ritmo más moderado"
+  date: 2022-11-01
+  description: "Formal employment recovery after the pandemic"
+  categories: [Semana Económica, Article]
+  path: https://semanaeconomica.com/economia-finanzas/empleo/empleo-formal-inversion-privada-jugara-un-rol-importante-en-su-recuperacion

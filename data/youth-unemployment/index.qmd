@@ -1,0 +1,148 @@
+---
+title: "Youth unemployment in Peru"
+description: "How unemployment among 15 to 24-year-olds has evolved and how Peru compares with the region."
+date: 2026-10-30
+categories: [Employment, Youth]
+image: thumbnail.png
+resources:
+  - data.csv
+jupyter: python3
+---
+
+```{python}
+#| label: prepare-data
+import pathlib
+import pandas as pd
+import requests
+import plotly.graph_objects as go
+
+INDICATOR = "SL.UEM.1524.ZS"  # Youth unemployment, % of labour force aged 15-24 (modelled ILO estimate)
+COUNTRIES = {
+    "PER": "Peru",
+    "CHL": "Chile",
+    "COL": "Colombia",
+    "MEX": "Mexico",
+    "LCN": "Latin America & Caribbean",
+}
+DATA_FILE = pathlib.Path("data.csv")
+
+# Downloads World Bank data the first time.
+# To update it, delete data.csv and render again.
+if not DATA_FILE.exists():
+    url = (
+        f"https://api.worldbank.org/v2/country/{';'.join(COUNTRIES)}/indicator/{INDICATOR}"
+        "?format=json&per_page=5000&date=2000:2030"
+    )
+    response = requests.get(url, timeout=60)
+    response.raise_for_status()
+    rows = response.json()[1]
+    pd.DataFrame(
+        [{"iso3": r["countryiso3code"], "year": int(r["date"]), "value": r["value"]} for r in rows]
+    ).dropna().to_csv(DATA_FILE, index=False)
+
+df = pd.read_csv(DATA_FILE)
+df["country"] = df["iso3"].map(COUNTRIES)
+df = df.sort_values(["iso3", "year"])
+
+peru = df[df.iso3 == "PER"].set_index("year")["value"]
+region = df[df.iso3 == "LCN"].set_index("year")["value"]
+latest = int(peru.index.max())
+latest_value = peru[latest]
+change_2019 = latest_value - peru.get(2019, float("nan"))
+gap_region = latest_value - region.get(latest, float("nan"))
+
+def pct(x):
+    return f"{x:.1f}%"
+
+def pp(x):
+    sign = "+" if x > 0 else "−" if x < 0 else ""
+    return f"{sign}{abs(x):.1f} pp"
+```
+
+::: {.cifras}
+::: {.cifra}
+[`{python} pct(latest_value)`]{.valor}
+
+[of 15 to 24-year-olds in the labour force were unemployed in `{python} str(latest)`]{.texto}
+:::
+
+::: {.cifra}
+[`{python} pp(change_2019)`]{.valor}
+
+[change compared with 2019, before the pandemic]{.texto}
+:::
+
+::: {.cifra}
+[`{python} pp(gap_region)`]{.valor}
+
+[difference from the Latin America & Caribbean average]{.texto}
+:::
+:::
+
+## Youth unemployment over time
+
+```{python}
+#| label: chart
+#| fig-cap: "Youth unemployment (% of labour force aged 15 to 24)"
+ACCENT = "#0B6E5E"
+GREY = "#9AA6B4"
+
+fig = go.Figure()
+for iso3, name in COUNTRIES.items():
+    series = df[df.iso3 == iso3]
+    is_peru = iso3 == "PER"
+    fig.add_trace(go.Scatter(
+        x=series.year, y=series.value, name=name, mode="lines",
+        line=dict(color=ACCENT if is_peru else GREY, width=4 if is_peru else 1.5,
+                  dash="dot" if iso3 == "LCN" else "solid"),
+        hovertemplate=f"<b>{name}</b><br>%{{x}}: %{{y:.1f}}%<extra></extra>",
+    ))
+fig.update_layout(
+    template="plotly_white",
+    font=dict(family="Public Sans, sans-serif", size=14),
+    paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+    margin=dict(l=10, r=10, t=10, b=10), height=420,
+    yaxis=dict(ticksuffix="%", gridcolor="rgba(128,128,128,0.2)"),
+    xaxis=dict(showgrid=False),
+    legend=dict(orientation="h", y=-0.15),
+    hovermode="x unified",
+)
+fig.show()
+```
+
+```{python}
+#| label: thumbnail
+#| include: false
+# Creates the image shown on the cards on the home page and the Data page.
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+fig_t, ax = plt.subplots(figsize=(6, 3.4), dpi=150)
+for iso3 in COUNTRIES:
+    s = df[df.iso3 == iso3]
+    ax.plot(s.year, s.value, color=ACCENT if iso3 == "PER" else GREY,
+            lw=3.5 if iso3 == "PER" else 1.2, ls=":" if iso3 == "LCN" else "-")
+ax.axis("off")
+fig_t.patch.set_facecolor("#E8EEF2")
+fig_t.tight_layout(pad=0.6)
+fig_t.savefig("thumbnail.png", facecolor=fig_t.get_facecolor())
+plt.close(fig_t)
+```
+
+## What the data tell us
+
+<!-- Write 2 or 3 paragraphs with your reading of the data: what changed, why it matters and which policies would help. -->
+
+Unemployment is only part of the problem: in Peru, many young people who do work hold informal, low-productivity jobs. This indicator is best read alongside youth informality and the share of young people not in employment, education or training.
+
+For a fuller analysis, see the study [Policies to improve youth labour market entry in Peru](https://ddhnb9vx8lz57.cloudfront.net/wp-content/uploads/2026/10/19091820/Estudio_empleabilidad_peru_2026.pdf) and the column [Más oportunidades para los jóvenes](https://elcomercio.pe/economia/opinion/trabajo-mas-oportunidades-para-los-jovenes-noticia/) (in Spanish).
+
+## Download the data
+
+::: {.descarga}
+[Download data (CSV)](data.csv){download="youth-unemployment.csv"}
+:::
+
+::: {.fuente}
+**Source:** World Bank, World Development Indicators, indicator `SL.UEM.1524.ZS` (modelled ILO estimate). Latin America & Caribbean values are the World Bank regional aggregate. Page last updated: October 2026.
+:::

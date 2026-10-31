@@ -1,0 +1,70 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap');
+
+$font-family-sans-serif: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight: 700;
+$font-size-root: 17px;
+$line-height-base: 1.6;
+$border-radius: 6px;
+
+/*-- scss:rules --*/
+body { -webkit-font-smoothing: antialiased; }
+main p, main li { max-width: 70ch; }
+
+h1, h2, h3 { letter-spacing: -0.01em; }
+h2 { margin-top: 2.2rem; }
+
+.navbar { border-bottom: 1px solid $rule; background-color: $body-bg !important; }
+.navbar .navbar-title { font-family: $headings-font-family; font-weight: 700; color: $body-color; }
+.navbar .nav-link { color: $body-color; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: $accent; }
+
+/* ---------- Portada ---------- */
+.portada {
+  padding: 3rem 0 2.5rem;
+  border-bottom: 1px solid $rule;
+  margin-bottom: 1.5rem;
+}
+.portada h1 {
+  font-size: clamp(2.1rem, 5vw, 3.3rem);
+  line-height: 1.1;
+  max-width: 19ch;
+  margin: 0 0 1.25rem;
+  border: 0;
+}
+.portada .bajada { font-size: 1.15rem; color: $muted; max-width: 54ch; }
+.portada .acciones { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: .75rem; }
+.portada .acciones a {
+  display: inline-block;
+  padding: .6rem 1.15rem;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid $accent;
+}
+.portada .acciones a.principal { background: $accent; color: $on-accent; }
+.portada .acciones a.secundaria { color: $accent; }
+.portada .acciones a:focus-visible { outline: 3px solid $accent-soft; outline-offset: 2px; }
+
+.seccion-titulo { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 2.5rem; }
+.seccion-titulo h2 { margin: 0; border: 0; }
+.seccion-titulo a { font-weight: 600; }
+
+/* ---------- Páginas de datos ---------- */
+.cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.25rem; margin: 1.5rem 0 2rem; }
+.cifra { border-left: 4px solid $accent; padding: .2rem 0 .2rem 1rem; }
+.cifra .valor { font-family: $headings-font-family; font-size: 2.2rem; font-weight: 700; line-height: 1.1; color: $accent; }
+.cifra .texto { color: $muted; font-size: .95rem; margin: .3rem 0 0; }
+
+.fuente { font-size: .88rem; color: $muted; border-top: 1px solid $rule; padding-top: .75rem; margin-top: 2.5rem; }
+
+.descarga a {
+  display: inline-block; padding: .45rem .9rem; border: 1px solid $accent;
+  border-radius: $border-radius; font-weight: 600; text-decoration: none;
+}
+
+/* ---------- Listados ---------- */
+.quarto-grid-item { border: 1px solid $rule; background: transparent; }
+.quarto-grid-item .card-title, .quarto-listing-default .listing-title { font-family: $headings-font-family; }
+.listing-date, .quarto-listing-table .listing-date { white-space: nowrap; color: $muted; }

@@ -1,0 +1,14 @@
+---
+title: "Reports"
+subtitle: "Policy studies and technical papers (in Spanish)."
+listing:
+  contents: reports.yml
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "YYYY"
+  sort-ui: false
+  filter-ui: false
+title-block-banner: false
+---

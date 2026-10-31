@@ -1,0 +1,36 @@
+---
+title: "About"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: file-earmark-person
+      text: CV (PDF)
+      href: files/CV_Gustavo_Meza.pdf
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gustavo-meza-hinojo/
+    - icon: envelope
+      text: Email
+      href: mailto:gustavo.meza@pucp.edu.pe
+---
+
+I am an economist and Senior Researcher at [Red de Estudios para el Desarrollo (REDES)](https://www.redesarrollo.pe/), a Peruvian public policy think tank. I manage a team of research assistants and work on youth employment, urban poverty, inflation, food insecurity and public transport.
+
+My work starts with data: microdata from national household, employment, education and energy surveys, analysed with impact evaluation methods (difference-in-differences, regression discontinuity, instrumental variables) and data science tools in Stata, Python and R. I want that evidence to reach the public debate, which is why I write a regular column for *El Comercio* and present findings at universities across Peru.
+
+## Experience
+
+**Red de Estudios para el Desarrollo (REDES)** · Senior Researcher (since 2025), Researcher (2023-2024)
+
+**Semana Económica** · Economic and Financial Analyst (2022-2023)
+
+**GERENS Graduate School** · Junior Researcher and Consulting Assistant in energy regulation and competition, for clients including Peru’s Ministry of Economy and Finance, Ministry of Energy and Mines and Osinergmin (2020-2022)
+
+**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019-2020)
+
+## Education
+
+**Pontificia Universidad Católica del Perú (PUCP)** · BSc and Licentiate in Economics. Specialisation Diploma in Data Science for Social Sciences and Public Management.

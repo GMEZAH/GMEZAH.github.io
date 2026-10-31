@@ -1,0 +1,16 @@
+---
+title: "Data"
+subtitle: "Topic pages with up-to-date indicators, charts and downloadable data."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  categories: true
+  fields: [image, title, description, date, categories]
+  date-format: "MMMM YYYY"
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---

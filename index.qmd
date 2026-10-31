@@ -1,0 +1,56 @@
+---
+pagetitle: "Gustavo Meza Hinojo | Public policy and data"
+page-layout: full
+title-block-banner: false
+listing:
+  - id: latest-data
+    contents: "data/*/index.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    max-items: 3
+    fields: [image, title, description, date]
+    date-format: "MMMM YYYY"
+  - id: latest-media
+    contents: media/media.yml
+    type: table
+    sort: "date desc"
+    max-items: 5
+    fields: [date, title, categories]
+    field-display-names:
+      date: "Date"
+      title: "Title"
+      categories: "Outlet and format"
+    date-format: "MMM YYYY"
+    sort-ui: false
+    filter-ui: false
+---
+
+::: {.portada}
+# I analyse data to understand Peru’s economy and improve its public policies
+
+[I am an economist and Senior Researcher at Red de Estudios para el Desarrollo (REDES), a Peruvian policy think tank. I write about jobs, poverty, investment and public services, using national survey data and impact evaluation. Opinion columnist at *El Comercio*.]{.bajada}
+
+::: {.acciones}
+[Explore the data](data/index.qmd){.principal}
+[Get in touch](mailto:gustavo.meza@pucp.edu.pe){.secundaria}
+:::
+:::
+
+::: {.seccion-titulo}
+## Latest data analysis
+
+[All topics](data/index.qmd)
+:::
+
+::: {#latest-data}
+:::
+
+::: {.seccion-titulo}
+## In the media
+
+[All media appearances](media/index.qmd)
+:::
+
+::: {#latest-media}
+:::

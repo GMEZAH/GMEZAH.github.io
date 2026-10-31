@@ -1,0 +1,20 @@
+---
+title: "Media"
+subtitle: "Opinion columns, interviews and articles on economics and public policy (in Spanish)."
+listing:
+  contents: media.yml
+  type: table
+  sort: "date desc"
+  categories: true
+  fields: [date, title, description, categories]
+  field-display-names:
+    date: "Date"
+    title: "Title"
+    description: "Topic"
+    categories: "Outlet and format"
+  date-format: "MMM YYYY"
+  filter-ui: [title, description]
+  sort-ui: false
+page-layout: full
+title-block-banner: false
+---
