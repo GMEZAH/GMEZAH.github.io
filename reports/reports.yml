@@ -1,0 +1,45 @@
+# Titles are English translations; documents are in Spanish.
+# Adjust each title if you prefer a different translation.
+
+- title: "Policies to improve youth labour market entry in Peru"
+  date: 2026-10-01
+  description: "Diagnosis of how young people enter Peru’s labour market, with policy proposals."
+  categories: [REDES, Employment]
+  path: https://ddhnb9vx8lz57.cloudfront.net/wp-content/uploads/2026/10/19091820/Estudio_empleabilidad_peru_2026.pdf
+
+- title: "Welfare effects of formal public transport on users"
+  date: 2023-11-01
+  description: "How a formal public transport system changes users’ welfare in Lima."
+  categories: [REDES, Transport]
+  path: https://www.redesarrollo.pe/wp-content/uploads/2023/11/Informe-Especial-transporte-publico.pdf
+
+- title: "Fiscal burden of Peru’s mining sector: a Latin American comparison"
+  date: 2022-06-01
+  description: "Compares the tax burden on mining in Peru with other countries in the region."
+  categories: [GERENS, Mining]
+  path: https://repositorio.gerens.edu.pe/bitstream/handle/20.500.12877/68/DT-001-2022_DI_GERENS_Carga%20Fiscal%20Minera.pdf?sequence=1
+
+- title: "Margin squeeze"
+  date: 2022-03-01
+  description: "Margin squeeze as an anticompetitive practice: comparative regulation and case law."
+  categories: [Libre Competencia UC, Competition]
+  path: https://librecompetencia.uc.cl/images/AAA/EPP/LCPP22.pdf
+
+- title: "Price fixing"
+  date: 2022-02-01
+  description: "Price fixing in competition policy: comparative regulation and case law."
+  categories: [Libre Competencia UC, Competition]
+  path: https://librecompetencia.uc.cl/images/AAA/EPP/LCPP_20.pdf
+
+- title: "Choice and consumption of energy sources at the residential level in Lima, Callao and Ica: an econometric approach"
+  date: 2023-04-01
+  description: "Working paper. Two-stage discrete-continuous model (Dubin & McFadden, 1984) of household energy choice and consumption."
+  categories: [Working paper, Energy]
+  path: ../files/working-paper-energy-gustavo-meza.pdf
+
+# Thesis: uncomment this block after copying the PDF to files/thesis-gustavo-meza.pdf
+# - title: "Energy demand in urban households in Peru: a two-stage analysis"
+#   date: 2023-01-01
+#   description: "Licentiate thesis. Discrete-continuous model with selection bias correction, using ERCUE 2019-2020 data."
+#   categories: [PUCP, Energy]
+#   path: ../files/thesis-gustavo-meza.pdf
