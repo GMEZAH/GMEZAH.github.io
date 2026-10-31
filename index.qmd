@@ -38,4 +38,7 @@ Technical market studies and competition analysis in maritime freight transport 
 
 ## Education
 
-**Pontificia Universidad Católica del Perú (PUCP)** · BSc and Licentiate in Economics. Specialisation Diploma in Data Science for Social Sciences and Public Management.
+**Pontificia Universidad Católica del Perú (PUCP)** · BSc in Economics and Professional Degree of Licentiate in Economics (2014 – 2020)
+
+**Pontificia Universidad Católica del Perú (PUCP)** · Specialisation Diploma in Data Science for Social Sciences and Public Management (2022 – 2023)\
+Advanced econometrics, machine learning, big data analytics, geospatial analysis and natural language processing, using Python, R and QGIS.
