@@ -68,3 +68,29 @@ h2 { margin-top: 2.2rem; }
 .quarto-grid-item { border: 1px solid $rule; background: transparent; }
 .quarto-grid-item .card-title, .quarto-listing-default .listing-title { font-family: $headings-font-family; }
 .listing-date, .quarto-listing-table .listing-date { white-space: nowrap; color: $muted; }
+
+/* ---------- About (home page) ---------- */
+/* Full-width layout: photo column on the left, wider text column. */
+#quarto-content div.quarto-about-trestles {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 3.5rem;
+}
+div.quarto-about-trestles .about-entity {
+  flex: 0 0 18rem;
+  padding-right: 0;
+}
+div.quarto-about-trestles .about-contents {
+  flex: 1 1 0;
+  min-width: 0;
+}
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity { flex-basis: auto; }
+  div.quarto-about-trestles .about-contents { border-left: 0; padding-left: 0; }
+}
+div.quarto-about-trestles .about-contents p,
+div.quarto-about-trestles .about-contents li {
+  max-width: 85ch;
+}
