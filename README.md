@@ -6,12 +6,11 @@ Personal website built with [Quarto](https://quarto.org).
 
 | Folder / file            | Contents                                                     |
 |--------------------------|--------------------------------------------------------------|
-| `index.qmd`              | Home page                                                    |
+| `index.qmd`              | Home page (About: bio, experience, education)                |
 | `data/`                  | One subfolder per topic, each with its `index.qmd` and data  |
 | `data/_template/`        | Template for a new topic (not published)                     |
 | `media/media.yml`        | Columns, interviews and articles                             |
 | `reports/reports.yml`    | Reports and technical papers                                 |
-| `about.qmd`              | Bio                                                          |
 | `styles/`                | Colours and fonts (light and dark mode)                      |
 | `files/`, `images/`      | PDFs (CV, thesis), profile photo and favicon                 |
 

@@ -15,14 +15,14 @@ website:
   open-graph: true
   navbar:
     left:
+      - href: index.qmd
+        text: About
       - href: data/index.qmd
         text: Data
-      - href: media/index.qmd
-        text: Media
       - href: reports/index.qmd
         text: Reports
-      - href: about.qmd
-        text: About
+      - href: media/index.qmd
+        text: Media
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/gustavo-meza-hinojo/
