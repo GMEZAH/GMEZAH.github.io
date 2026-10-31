@@ -20,20 +20,21 @@ about:
       text: Email
       href: mailto:gustavo.meza@pucp.edu.pe
 ---
-
-I am an economist and Senior Researcher at [Red de Estudios para el Desarrollo (REDES)](https://www.redesarrollo.pe/), a Peruvian public policy think tank. I manage a team of research assistants and work on youth employment, urban poverty, inflation, food insecurity and public transport.
-
-My work starts with data: microdata from national household, employment, education and energy surveys, analysed with impact evaluation methods (difference-in-differences, regression discontinuity, instrumental variables) and data science tools in Stata, Python and R. I want that evidence to reach the public debate, which is why I write a regular column for *El Comercio* and present findings at universities across Peru.
+I am an economist and Senior Researcher at [Red de Estudios para el Desarrollo (REDES)](https://www.redesarrollo.pe/). My work focuses on public policy analysis and economic regulation, covering topics such as social development, employment, energy, and mining. I have previous experience in regulatory consulting and economic analysis. Additionally, I publish opinion articles in media outlets such as El Comercio and Correo, and I participate in public debates with the goal of bringing clear and accessible evidence to the public discussion.
 
 ## Experience
 
 **Red de Estudios para el Desarrollo (REDES)** · Senior Researcher (since 2025), Researcher (2023-2024)
+Applied economic analysis focused on social development, macroeconomics, labor markets, and public policy.
 
 **Semana Económica** · Economic and Financial Analyst (2022-2023)
+Macroeconomic, fiscal, and sectoral policy analysis, authoring over 60 articles and interviewing key public and corporate decision-makers.
 
-**GERENS Graduate School** · Junior Researcher and Consulting Assistant in energy regulation and competition, for clients including Peru’s Ministry of Economy and Finance, Ministry of Energy and Mines and Osinergmin (2020-2022)
+**GERENS Graduate School** · Junior Researcher and Consulting Assistant (2020 – 2022)
+Regulatory consulting and economic research in energy, natural gas, and mining for private firms and public agencies (MEF, MINEM, Osinergmin)
 
-**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019-2020)
+**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019 – 2020)
+Technical market studies and competition analysis in maritime freight transport and the port sector.
 
 ## Education
 
