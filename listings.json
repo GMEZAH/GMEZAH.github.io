@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/reports/index.html",
+    "listing": "/media/index.html",
     "items": []
   },
   {
@@ -10,13 +10,7 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/data/youth-unemployment/index.html"
-    ]
-  },
-  {
-    "listing": "/media/index.html",
+    "listing": "/reports/index.html",
     "items": []
   }
 ]
