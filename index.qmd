@@ -1,56 +1,39 @@
 ---
-pagetitle: "Gustavo Meza Hinojo | Public policy and data"
-page-layout: full
-title-block-banner: false
-listing:
-  - id: latest-data
-    contents: "data/*/index.qmd"
-    type: grid
-    grid-columns: 3
-    sort: "date desc"
-    max-items: 3
-    fields: [image, title, description, date]
-    date-format: "MMMM YYYY"
-  - id: latest-media
-    contents: media/media.yml
-    type: table
-    sort: "date desc"
-    max-items: 5
-    fields: [date, title, categories]
-    field-display-names:
-      date: "Date"
-      title: "Title"
-      categories: "Outlet and format"
-    date-format: "MMM YYYY"
-    sort-ui: false
-    filter-ui: false
+title: "About"
+pagetitle: "Gustavo Meza Hinojo | Economist"
+aliases:
+  - about.html
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: file-earmark-person
+      text: CV (PDF)
+      href: files/CV_Gustavo_Meza.pdf
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gustavo-meza-hinojo/
+    - icon: envelope
+      text: Email
+      href: mailto:gustavo.meza@pucp.edu.pe
 ---
 
-::: {.portada}
-# I analyse data to understand Peru’s economy and improve its public policies
+I am an economist and Senior Researcher at [Red de Estudios para el Desarrollo (REDES)](https://www.redesarrollo.pe/), a Peruvian public policy think tank. I manage a team of research assistants and work on youth employment, urban poverty, inflation, food insecurity and public transport.
 
-[I am an economist and Senior Researcher at Red de Estudios para el Desarrollo (REDES), a Peruvian policy think tank. I write about jobs, poverty, investment and public services, using national survey data and impact evaluation. Opinion columnist at *El Comercio*.]{.bajada}
+My work starts with data: microdata from national household, employment, education and energy surveys, analysed with impact evaluation methods (difference-in-differences, regression discontinuity, instrumental variables) and data science tools in Stata, Python and R. I want that evidence to reach the public debate, which is why I write a regular column for *El Comercio* and present findings at universities across Peru.
 
-::: {.acciones}
-[Explore the data](data/index.qmd){.principal}
-[Get in touch](mailto:gustavo.meza@pucp.edu.pe){.secundaria}
-:::
-:::
+## Experience
 
-::: {.seccion-titulo}
-## Latest data analysis
+**Red de Estudios para el Desarrollo (REDES)** · Senior Researcher (since 2025), Researcher (2023-2024)
 
-[All topics](data/index.qmd)
-:::
+**Semana Económica** · Economic and Financial Analyst (2022-2023)
 
-::: {#latest-data}
-:::
+**GERENS Graduate School** · Junior Researcher and Consulting Assistant in energy regulation and competition, for clients including Peru’s Ministry of Economy and Finance, Ministry of Energy and Mines and Osinergmin (2020-2022)
 
-::: {.seccion-titulo}
-## In the media
+**INDECOPI** · Intern, Technical Secretariat for Free Competition (2019-2020)
 
-[All media appearances](media/index.qmd)
-:::
+## Education
 
-::: {#latest-media}
-:::
+**Pontificia Universidad Católica del Perú (PUCP)** · BSc and Licentiate in Economics. Specialisation Diploma in Data Science for Social Sciences and Public Management.
